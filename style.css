@@ -1,0 +1,295 @@
+.bg-color
+    {
+      background-color:#496109;
+
+    }
+    .bg-color a
+    {
+      color: white;
+    }
+    .bg-color a:hover
+    {
+      background-color:#496109 ;
+      color:#2ECC71;
+    }
+    .b-radious
+    { border:1px solid #496109;
+      padding: 5px;
+    
+      width: 100px;
+      text-align: center;
+      border-radius: 25px;
+
+      background-color: ;
+      
+    }
+    .topsection
+    {
+      background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.3)),url('img1.jpg');
+      background-size: cover;
+      width:100%;
+      
+    }
+
+
+    .navbar-expand-lg
+    {
+      background-color: white;
+    }
+
+    .stroke-letters
+    {
+      font-size:45px;
+      font-style: bold;
+      color:white ;
+      font-family:verdana;
+      line-height: 1;
+; 
+      -webkit-text-fill-color:#496109;
+      -webkit-text-stroke-width:1px;
+      font-weight:bold;
+    }
+    .getstarted
+    {
+      border-radius: 20px;
+      padding: 8px;
+      width: 150px;
+      background-color:#496109;
+      border:none;
+      font-style: bold;
+      font-size: 20px;
+      margin-bottom:300px; 
+    }
+    
+    #section1
+    {
+      width: 100%
+      height:100vh;
+    }
+    #section2
+    {
+      background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.3)), url('dollar.jpg');
+      
+      width: 100%
+      height:200px;
+    }
+
+    #section3
+    {
+      background-image:linear-gradient(#1E8449,rgba(0,0,0,0.3)), url('people.jpg');
+     
+      width: 100%
+      height:200px;
+    }
+
+    #section5
+    {
+      background-image:url('img7.jpg');
+     
+      width: 100%
+      height:400px;
+    }
+
+    .clipart
+    {
+      font-size: 40px;
+      color: grey;
+    }
+    
+    .h3heading
+    {
+      color:#496109;
+    }
+   .parallal
+   {
+     background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;      
+   }
+   .text-input
+   {
+    width:340px;
+    height: 50px;
+    padding: 5px;
+    border-radius:30px;
+    outline: none;
+    border:none;
+    
+   }
+
+   .submit-btn
+   {
+    width:150px;
+    height: 50px;
+    padding: 5px;
+    border-radius:30px;
+    outline: none;
+    border:none;
+    background-color:#496109;
+    color:white;
+   }
+
+   .outer-div
+   {
+    width:495px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+   }
+   .span-border
+   {
+    
+    border-left: 3px solid #496109;
+    
+   }
+
+   .span-border h5,p{
+      margin-left: 2px;
+      line-height: 1;
+   }
+   ul h4
+   {
+    font-size: 18px;
+   }
+   .col-md-3 ul li,.col-md-2 ul li,.col-md-5 ul li
+   {
+    list-style: none;
+    text-align: left;
+   }
+   .Socialmedia
+   {
+    font-size: 25px;
+    padding: 4px;
+   }
+
+   .fa-facebook:hover
+   {
+    color: #4267B2;
+   }
+   .fa-twitter:hover
+   {
+    color:#1DA1F2; 
+   }
+   .fa-linkedin:hover
+   {
+    color:#0A66C2;
+   }
+   .fa-instagram:hover
+   {
+    color:#e95950; 
+   }
+   .fa-quote-left
+   {
+    color: #496109;
+   }
+  
+
+  .paymentmethod
+  {
+    border:1px solid white;
+    padding: 4px;
+    color: white;
+
+  }
+
+  .paymentmethod:hover
+  {
+    background-color:#496109;
+  }
+  .payment-img
+  {
+    width: 100px;
+    height: 35px;
+    background-color: white;
+  
+  }
+
+  .fade-anim
+  {
+    animation: fadeIn 5s;
+    transition: 0.5s; 
+  } 
+
+  @keyframes fadeIn
+  {
+    0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+
+   .shake
+   {
+    position:;
+    animation:anim1 0.6s slidein linear;
+   }
+
+   @keyframes anim1
+   {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(7deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-7deg); }
+    100% { transform: rotate(0deg); }
+   }
+
+   .fadein1
+   {
+    animation: anim2 1.2s 1s infinite linear;
+   }
+
+   .fadein2
+   {
+    animation: anim2 1.2s 2s infinite linear;
+   }
+
+   .fadein3
+   {
+    animation: anim2 1.2s 3s infinite linear;
+   }
+
+   .fadein4
+   {
+    animation: anim2 1.2s 4s infinite linear;
+   }
+
+   
+
+
+   @keyframes anim2
+   {
+    0% { visibility: none; }
+    100% { display: block; }
+   }
+
+   .zoom
+   {
+    animation: anim3 1s;
+    animation-timing-function: ease-in-out;
+   }
+   @keyframes anim3
+   {
+    0%{padding: 18px;}
+    100%{padding:0px;}
+   }
+
+   svg
+   {
+    opacity: 0.4;
+   }
+
+   .logintop
+    {
+      background-image:linear-gradient(#496109,rgba(0,0,0,0.3)),url('img1.jpg');
+      background-size: cover;
+      width:100%;
+    }
+
+    .loginbtn
+    {
+      border-radius: 20px;
+      background-color:#496109;
+      border:none;
+      padding: 5px;
+    }
+
+  </style>
